@@ -4,7 +4,7 @@ MEGB: An R package for Mixed Effect Gradient Boosting for High-dimensional Longi
 
 MEGB is an adaptation of the gradient boosting regression method to longitudinal data, similar to the Mixed Effect Random Forest (MERF) developed by Hajjem et al. (2014) and implemented by Capitaine et al. (2020). The algorithm estimates the parameters of a semi-parametric mixed-effects model:
 
-\[ Y_i(t) = f(X_i(t)) + Z_i(t)\beta_i + \epsilon_i \]
+$$ Y_i(t) = f(X_i(t)) + Z_i(t)\beta_i + \epsilon_i $$
 
 where:
 - \( Y_i(t) \): Output at time \( t \) for the \( i \)-th individual.
@@ -51,6 +51,8 @@ A fitted MEGB model, which includes:
 ### Training an MEGB Model
 
 ```R
+devtools::install_github("rid4stat/MEGB")
+library(MEGB)
 set.seed(1)
 data <- simLong(
   n = 20, p = 6, rel_p = 6, time_points = 10, rho_W = 0.6, rho_Z = 0.6,
