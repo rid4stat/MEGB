@@ -1,0 +1,24 @@
+Package: MEGB
+Type: Package
+Title: Gradient Boosting for Longitudinal Data
+Version: 0.1
+Author: Oyebayo Ridwan Olaniran  (<https://orcid.org/0000-0001-7342-8639>), Saidat Fehintola Olaniran  (<https://orcid.org/0000-0002-6951-1330>)
+Maintainer: Oyebayo Ridwan Olaniran <olaniran.or@unilorin.edu.ng>
+Description: Gradient boosting is a powerful statistical learning method known for its ability to model 
+    complex relationships between predictors and outcomes while performing inherent variable selection. 
+    However, traditional gradient boosting methods lack flexibility in handling longitudinal data where 
+    within-subject correlations play a critical role. In this package, we propose a novel approach 
+    Mixed Effect Gradient Boosting (MEGB), designed specifically for high-dimensional longitudinal data. 
+    MEGB incorporates a flexible semi-parametric model that embeds random effects within the gradient boosting 
+    framework, allowing it to account for intra-individual covariance over time. Additionally, the method 
+    efficiently handles scenarios where the number of predictors greatly exceeds the number of observations
+    (p>>n) making it particularly suitable for omics data and other large-scale biomedical studies.
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+Imports: stats, gbm3, MASS, latex2exp
+NeedsCompilation: no
+RoxygenNote: 7.3.2.9000
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3

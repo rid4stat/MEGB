@@ -1,0 +1,8 @@
+S3method(predict,MEGB)
+export(simLong)
+export(MEGB)
+import(latex2exp)
+import(MASS)
+import(gbm3)
+import(stats)
+
