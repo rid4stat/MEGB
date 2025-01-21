@@ -7,7 +7,7 @@ MEGB is an adaptation of the gradient boosting regression method to longitudinal
 $$ Y_i(t) = f(X_i(t)) + Z_i(t)\beta_i + \epsilon_i $$
 
 where:
-- $ Y_{i(t)} $: Output at time \( t \) for the \( i \)-th individual.
+- $$ Y_i(t) $$: Output at time \( t \) for the \( i \)-th individual.
 - \( X_i(t) \): Input predictors (fixed effects) at time \( t \) for the \( i \)-th individual.
 - \( Z_i(t) \): Random effects at time \( t \) for the \( i \)-th individual.
 - \( \epsilon_i \): Residual error.
