@@ -97,7 +97,7 @@ for (i in unique(data$id)) {
   plot(data$time[w], data$Y[w], type = "l", col = "blue")
   lines(data$time[w], pred.MEGB[w], col = "red")
 }
-
+```
 # References
 - Hajjem, A., Bellavance, F., & Larocque, D. (2014). Mixed-effects random forest for clustered data. Journal of Statistical Computation and Simulation, 84(6), 1313-1328.
 - Capitaine, L., Genuer, R., & Thiébaut, R. (2021). Random forests for high-dimensional longitudinal data. Statistical methods in medical research, 30(1), 166-184.
