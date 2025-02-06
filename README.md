@@ -51,6 +51,9 @@ A fitted MEGB model, which includes:
 ### Training an MEGB Model
 
 ```R
+# MEGB can be installed from CRAN:
+install.packages("MEGB")
+# The development version can be installed from GitHub:
 devtools::install_github("rid4stat/MEGB")
 library(MEGB)
 set.seed(1)
