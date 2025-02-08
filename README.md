@@ -44,7 +44,7 @@ A fitted MEGB model, which includes:
 - `time`: Measurement times for trajectories.
 - `LL`: Log-likelihood across iterations.
 - `id`: Identifiers for trajectories.
-- `OOB`: Out-of-bag error for the fitted random forest at each iteration.
+- `OOB`: Out-of-bag error for the fitted gradient boosting at each iteration.
 
 ## Examples
 
